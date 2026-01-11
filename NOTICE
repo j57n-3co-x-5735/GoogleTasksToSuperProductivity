@@ -1,0 +1,81 @@
+NOTICE
+
+Google Tasks to Super Productivity Converter
+=============================================
+
+This project includes software developed by multiple contributors:
+
+
+1. ORIGINAL PROJECT: GoogleTasksJSONtoTXT
+   --------------------------------------
+   Copyright (c) 2020 Thales
+   Repository: https://github.com/thethales/GoogleTasksJSONtoTXT
+   License: MIT
+
+   The original project provided:
+   - Google Tasks JSON parsing logic
+   - TXT export functionality
+   - GUI interface (run_gui.py)
+   - CLI interface (run_silent.py)
+
+
+2. SUPER PRODUCTIVITY CONVERTER ADDITIONS
+   --------------------------------------
+   Copyright (c) 2026 j57n-3co-x-5735
+   License: MIT
+
+   New functionality added:
+   - Super Productivity JSON export (google_tasks_to_sp.py)
+   - SP-compatible data structure generation
+   - Subtask relationship preservation
+   - Comprehensive unit tests (test_conversion.py)
+
+   Developed with assistance from Claude (Anthropic).
+
+
+3. THIRD-PARTY REFERENCES
+   ----------------------
+
+   Super Productivity
+   ------------------
+   This tool generates import files compatible with Super Productivity.
+   Copyright (c) Johannes Millan and contributors
+   Repository: https://github.com/johannesjo/super-productivity
+   License: MIT
+
+   The Super Productivity data format was derived by analyzing the
+   publicly available source code. No Super Productivity code is
+   included in this converter.
+
+   Google Tasks / Google Takeout
+   -----------------------------
+   Google Tasks and Google Takeout are products of Google LLC.
+   This tool processes the standard JSON export format.
+   Google is a trademark of Google LLC.
+
+
+FULL LICENSE TEXT
+=================
+
+MIT License
+
+Copyright (c) 2020 Thales (GoogleTasksJSONtoTXT)
+Copyright (c) 2026 j57n-3co-x-5735 (Super Productivity converter additions)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
